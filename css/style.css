@@ -151,7 +151,7 @@ body {
   letter-spacing: 3px;
 }
 
-.photo__subtittle {
+.photo__text {
   margin-top: 40px;
   font-family: "Gotham book";
   font-size: 12px;
@@ -199,7 +199,7 @@ body {
   letter-spacing: 3px;
 }
 
-.design__subtitle {
+.design__text {
   margin-top: 40px;
   font-family: "Gotham book";
   font-size: 12px;
@@ -219,4 +219,116 @@ body {
   border: none;
   border-radius: 3px;
   background-color: #16a085;
+}
+
+/* ================
+      Community
+==================*/
+
+.community {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 480px;
+  background-color: #f5f6f7;
+}
+
+.community__inner {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 190px;
+  margin-top: 165px;
+}
+
+.community__title {
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #373737;
+  font-family: "Gotham bold";
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.community__text {
+  margin-top: 25px;
+  font-size: 11px;
+  font-family: "Gotham medium";
+  color: #373737;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.community__slider {
+  float: right;
+  width: 770px;
+  margin-top: 95px;
+}
+
+.community__arrows {
+  text-align: right;
+}
+
+.arrows__link {
+  margin-right: 10px;
+}
+
+.arrows__link:last-child {
+  margin-right: 0px;
+}
+
+.community__galery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* ================
+      Subscribe
+==================*/
+
+.subscribe {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 790px;
+  background: url("/image/bg.jpg");
+}
+
+.subscribe__title {
+  padding-top: 350px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Gotham bold";
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.subscribe__reg {
+  width: 345px;
+  display: flex;
+  margin: 25px auto 0;
+}
+
+input {
+  width: 280px;
+  height: 60px;
+}
+
+::placeholder {
+  text-transform: uppercase;
+  color: #373737;
+  font-family: "Gotham medium";
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-left: 20px;
+}
+
+.btn-4 {
+  width: 60px;
+  height: 60px;
+  background-color: #16a085;
+  border: none;
 }
