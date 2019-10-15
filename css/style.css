@@ -40,6 +40,12 @@ body {
   width: 100%;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
 /* ================
         Header
 ==================*/
@@ -112,7 +118,6 @@ body {
   width: 165px;
   height: 50px;
   color: #fff;
-  border: none;
   border-radius: 3px;
   background-color: #16a085;
 }
@@ -168,7 +173,6 @@ body {
   width: 165px;
   height: 50px;
   color: #fff;
-  border: none;
   border-radius: 3px;
   background-color: #16a085;
 }
@@ -216,7 +220,6 @@ body {
   width: 165px;
   height: 50px;
   color: #fff;
-  border: none;
   border-radius: 3px;
   background-color: #16a085;
 }
@@ -315,6 +318,10 @@ body {
 input {
   width: 280px;
   height: 60px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 3px 0 0 3px;
+  outline: none;
 }
 
 ::placeholder {
@@ -323,12 +330,132 @@ input {
   font-family: "Gotham medium";
   font-size: 16px;
   letter-spacing: 2px;
-  padding-left: 20px;
 }
 
 .btn-4 {
   width: 60px;
   height: 60px;
   background-color: #16a085;
+  border-radius: 0 3px 3px 0;
+}
+
+/* ================
+      Download
+==================*/
+
+.download {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f5f6f7;
+}
+
+.download__title {
+  margin-top: 90px;
+  text-transform: uppercase;
+  color: #373737;
+  font-family: "Gotham bold";
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.download__text {
+  font-family: "Gotham medium";
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 865px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.download__buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 620px;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+
+.download__apple {
+  display: flex;
+}
+
+.btn-text {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  background-color: #1abc9c;
+  font-family: "Gotham bold";
+  width: 240px;
+  height: 55px;
+  border-radius: 3px 0 0 3px;
+}
+
+.btn-apple {
+  width: 55px;
+  background-color: #16a085;
+  border-radius: 0 3px 3px 0;
+}
+
+.download__play {
+  display: flex;
+}
+
+.btn-play {
+  width: 55px;
+  background-color: #16a085;
+  border-radius: 0 3px 3px 0;
+}
+
+/* ================
+      Footer
+==================*/
+
+.footer {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  height: 130px;
+}
+
+.footer__inner {
+  float: left;
+  margin-top: 45px;
+}
+
+.footer__image {
+  float: right;
+  margin-top: 40px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #373737;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Gotham bold";
+  padding-right: 5px;
+  margin-right: 5px;
+  border-right: solid 2px #16a085;
+  letter-spacing: 2px;
+}
+
+.footer__link:last-child {
+  padding: 0;
+  margin: 0;
   border: none;
+}
+
+.footer__copyright {
+  color: #373737;
+  font-size: 14px;
+  font-family: "Gotham bold";
+  letter-spacing: 2px;
+  margin-top: 20px;
 }
